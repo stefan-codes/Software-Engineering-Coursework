@@ -5,8 +5,15 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WpfApp"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="MainWindow" Height="300.457" Width="206.742">
     <Grid>
-        
+        <Button x:Name="NewMessageBtn" Content="New Message" HorizontalAlignment="Left" Padding="5,0" Margin="20,20,0,0" VerticalAlignment="Top" Width="149" Click="NewMessageBtn_Click"/>
+        <Button x:Name="InputMessageBtn" Content="Input Message" HorizontalAlignment="Left" Padding="5,0" Margin="20,43,0,0" VerticalAlignment="Top" Width="149" Click="InputMessageBtn_Click"/>
+        <Button x:Name="ShowMessagesBtn" Content="Show Messages" HorizontalAlignment="Left" Padding="5,0" Margin="20,66,0,0" VerticalAlignment="Top" Width="149" Click="ShowMessagesBtn_Click"/>
+        <Button x:Name="TrendingListBtn" Content="Show Trending List" HorizontalAlignment="Left" Padding="5,0" Margin="20,89,0,0" VerticalAlignment="Top" Width="149" Click="TrendingListBtn_Click"/>
+        <Button x:Name="MentionsListBtn" Content="Show Mentions List" HorizontalAlignment="Left" Padding="5,0" Margin="20,112,0,0" VerticalAlignment="Top" Width="149" Click="MentionsListBtn_Click"/>
+        <Button x:Name="QuarantineListBtn" Content="Show Quarantine List" HorizontalAlignment="Left" Padding="5,0" Margin="20,135,0,0" VerticalAlignment="Top" Width="149" Click="QuarantineListBtn_Click"/>
+        <Button x:Name="SirListBtn" Content="Show SIR List" HorizontalAlignment="Left" Padding="5,0" Margin="20,158,0,0" VerticalAlignment="Top" Width="149" Click="SirListBtn_Click"/>
+        <Button x:Name="ExitBtn" Content="Exit" HorizontalAlignment="Left" Padding="5,0" Margin="20,227,0,0" VerticalAlignment="Top" Width="149" Click="ExitBtn_Click"/>
     </Grid>
 </Window>

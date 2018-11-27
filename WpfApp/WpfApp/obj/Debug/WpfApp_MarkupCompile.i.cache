@@ -10,11 +10,11 @@ none
 false
 DEBUG;TRACE
 C:\Users\stefa\Documents\Workspace\SoftwareEngineeringCW\WpfApp\WpfApp\App.xaml
-11151548125
+8-1764919150
 
-92123812684
-131569487696
-MainWindow.xaml;
+29-291379516
+141545193670
+MainWindow.xaml;View\MentionsList.xaml;View\NewMessage.xaml;View\ProcessedMessage.xaml;View\QuarantineList.xaml;View\ShowMessages.xaml;View\SirList.xaml;View\TrendingList.xaml;
 
-True
+False
 

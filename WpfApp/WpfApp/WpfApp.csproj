@@ -35,6 +35,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Newtonsoft.Json, Version=11.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.11.0.2\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />
     <Reference Include="System.Xml" />
@@ -55,6 +58,38 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="DataStructures\AppOptions.cs" />
+    <Compile Include="DataStructures\DataBaseSingleton.cs" />
+    <Compile Include="DataStructures\TextSpeakAbbreviations.cs" />
+    <Compile Include="Logic\IdGeneratorSingleton.cs" />
+    <Compile Include="Logic\ReadFromFile.cs" />
+    <Compile Include="Logic\ServiceController.cs" />
+    <Compile Include="Logic\Persistence.cs" />
+    <Compile Include="Logic\Sanitizer.cs" />
+    <Compile Include="Logic\Validator.cs" />
+    <Compile Include="Model\Email.cs" />
+    <Compile Include="Model\Tweet.cs" />
+    <Compile Include="View\MentionsList.xaml.cs">
+      <DependentUpon>MentionsList.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\NewMessage.xaml.cs">
+      <DependentUpon>NewMessage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\ProcessedMessage.xaml.cs">
+      <DependentUpon>ProcessedMessage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\QuarantineList.xaml.cs">
+      <DependentUpon>QuarantineList.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\ShowMessages.xaml.cs">
+      <DependentUpon>ShowMessages.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\SirList.xaml.cs">
+      <DependentUpon>SirList.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\TrendingList.xaml.cs">
+      <DependentUpon>TrendingList.xaml</DependentUpon>
+    </Compile>
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -67,8 +102,38 @@
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Page Include="View\MentionsList.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\NewMessage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\ProcessedMessage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\QuarantineList.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\ShowMessages.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\SirList.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\TrendingList.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Model\Message.cs" />
+    <Compile Include="Model\Sms.cs" />
     <Compile Include="Properties\AssemblyInfo.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -86,6 +151,7 @@
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
+    <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -94,5 +160,6 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
