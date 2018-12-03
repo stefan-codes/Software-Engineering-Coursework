@@ -24,9 +24,29 @@
       "Id": "s000000005",
       "Sender": "+12312",
       "MessageBody": " "
+    },
+    {
+      "Id": "s000000006",
+      "Sender": "+4124214",
+      "MessageBody": "Hey, I am doing demo atm <At the moment> please dont disturb."
+    },
+    {
+      "Id": "s000000007",
+      "Sender": "+123456",
+      "MessageBody": "I am so cool lol <Laughing out loud> but for real."
+    },
+    {
+      "Id": "s000000008",
+      "Sender": "+2324",
+      "MessageBody": "I dont realy know dunno"
+    },
+    {
+      "Id": "s000000009",
+      "Sender": "+123123123",
+      "MessageBody": "sadasdasdfafsa"
     }
   ],
-  "NextFreeSmsId": 6,
+  "NextFreeSmsId": 10,
   "EmailList": [
     {
       "Sir": true,
@@ -39,9 +59,31 @@
       "Id": "e000000001",
       "Sender": "lotter@gmail.com",
       "MessageBody": "23-34-34\r\nRaid\r\nWOW raid tonight 1900 sharp online <URL Quarantined>"
+    },
+    {
+      "Sir": true,
+      "Subject": "SIR 27/11/2018",
+      "NatureOfIncident": "Raid",
+      "SortCode": "22-22-22",
+      "QuarantineList": [
+        "google.com"
+      ],
+      "Id": "e000000002",
+      "Sender": "sdasd@asd.com",
+      "MessageBody": "22-22-22\r\nRaid\r\nHey, I just came from <URL Quarantined>"
+    },
+    {
+      "Sir": true,
+      "Subject": "SIR 27/11/2018",
+      "NatureOfIncident": "ATM Theft",
+      "SortCode": "",
+      "QuarantineList": [],
+      "Id": "e000000003",
+      "Sender": "asd@asd.com",
+      "MessageBody": "\r\nATM Theft\r\nfsdgdfgfdhf"
     }
   ],
-  "NextFreeEmailId": 2,
+  "NextFreeEmailId": 4,
   "TweetList": [
     {
       "HashTags": [
@@ -53,7 +95,39 @@
       "Id": "t000000001",
       "Sender": "@trumpet",
       "MessageBody": "@trumpster Billions and billions and billion and billions #billyensen"
+    },
+    {
+      "HashTags": [
+        "#cw",
+        "#"
+      ],
+      "Mentions": [
+        "@trix"
+      ],
+      "Id": "t000000002",
+      "Sender": "@stefan",
+      "MessageBody": "@trix hey #cw #cw # cw #cw"
+    },
+    {
+      "HashTags": [
+        "#cw"
+      ],
+      "Mentions": [],
+      "Id": "t000000003",
+      "Sender": "@sdsasd",
+      "MessageBody": "asdasdas #cw"
+    },
+    {
+      "HashTags": [
+        "#ps4"
+      ],
+      "Mentions": [
+        "@trix"
+      ],
+      "Id": "t000000004",
+      "Sender": "@stefan",
+      "MessageBody": "@trix please dont play the #ps4"
     }
   ],
-  "NextFreeTweetId": 2
+  "NextFreeTweetId": 5
 }
